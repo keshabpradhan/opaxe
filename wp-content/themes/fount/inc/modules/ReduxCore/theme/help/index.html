@@ -1,0 +1,324 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<meta name="author" content="Pirenko" />
+<meta name="description" content="Fount Theme" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" type="text/css" href="./../wp-content/themes/fount/inc/modules/ReduxCore/theme/help/style.css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="./css/style-ie.css" />
+<![endif]-->
+
+
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="./css/style-ie.css" />
+<![endif]-->
+<script type="text/javascript" src="./../wp-content/themes/fount/inc/modules/ReduxCore/theme/help/js/custom.js"></script>
+<script type="text/javascript">
+var $jafui = jQuery.noConflict();  
+$jafui(document).ready(function()
+{  
+    $jafui("#secondpane li.menu_head").mouseover(function()
+    {
+        $jafui(this).next("li.menu_body").slideDown(500).siblings("li.menu_body").slideUp("slow");
+    });  
+});
+</script>
+</head>
+<body>
+
+<div id="main_container">
+	<!-- LOGO -->
+	<a id="logo" title="Homepage" href="#main_container">
+    	<img src="images/logo.png" alt=" " width="250" height="100"/>
+    </a>
+	<!-- MAIN NAVIGATION--> 
+	<div id="main_navigation" class="main-menu ">	
+	<ul> 
+		<li><a href="#getting_started" title="Started">Getting Started</a> 
+        	<ul> 
+				<li><a href="#about_theme">About the Theme</a></li> 
+				<li><a href="#instal_theme">Installation</a></li> 
+                <li><a href="#demo_content">One-click install demo content</a></li> 
+				<li><a href="#options_theme">Theme Options</a></li>  
+          	</ul>
+       	</li>
+		<li><a href="#custom_options">Configuration</a> 
+			<ul> 
+            	<li><a href="#menu_management">Menu Management</a></li> 
+			</ul> 
+		</li> 
+		<li><a href="#content_management">Content Management</a> 
+			<ul> 
+				<li><a href="#p_p">Portfolio/Portfolio items</a></li> 
+				<li><a href="#b_n">Blog/Posts</a></li>
+               	<li><a href="#h_s">Theme Sliders/Slides</a></li> 
+                <li><a href="#h_m">Teams/Team Members</a></li>
+                <li><a href="#custom_bks">Pages Templates & Visual Composer</a></li> 
+                <li><a href="#w_c">WooCommerce</a></li>
+			</ul> 
+		</li> 
+		<li><a href="#final_notes">Final Notes</a>
+			<ul>
+                <li><a href="#update_theme">Theme Update</a></li> 
+				<li><a href="#tips">Customization Tips</a></li> 
+				<li><a href="#credits">Sources and Image Credits</a></li>
+          	</ul> 
+		</li>
+	</ul> 	
+</div>
+<a id="back_to_top" class="bookmark" title="Bookmark"><img src="./images/top.png" alt="" title="" border="0" /></a>
+<div class="fullwidth_content">
+    <div class="tinys_wrapper"></div>
+	<div id="getting_started" class="main_block">
+        <h1>Getting Started</h1>
+        <div id="about_theme">
+            <h3>About the Theme</h3>
+            <p>Created: December 10, 2013</p> 
+            <p>Author: Pirenko</p> 
+            <p>Author Website: <a href="http://www.pirenko.com">Pirenko</a></p> 
+            <p>Twitter: <a href="http://www.twitter.com/Pirenko">Twitter</a></p> 
+            <p>Facebook: <a href="http://www.facebook.com/Pirenko">Facebook</a></p>
+            <p>If you have any questions that weren't clearly answered on this help file please feel free to email via my user page contact form at <a href="http://themeforest.net/user/Pirenko">Themeforest</a>. If you have time don't forget also to rate the theme on your downloads section.</p>
+            <p>Thank you for purchasing the Fount WordPress Theme!</p>           
+        </div><!--about_theme-->
+
+        <div id="instal_theme">      
+            <h3>Installation</h3>
+            <p>This theme is installed like any other WordPress Theme. Simply upload the fount.zip folder using the WordPress Dashboard or upload via FTP the fount folder into wp-content/themes folder.</p>
+            <p>After theme activation, you are advised to install one plugins that is bundled with the theme: Fount Framework. To take full advantage of all this theme has to offer, it's strongly recommended that you install this plugin. Here's a step by step video tutorial: </p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/YQvbZo-3ACs?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble opening this video you can view it online here <a href="http://www.youtube.com/watch?v=YQvbZo-3ACs">http://www.youtube.com/watch?v=YQvbZo-3ACs</a>.</p>   
+        </div><!--install_theme-->
+
+        <div id="demo_content">      
+            <h3>One-click install demo content</h3>
+            <p>The easiest and fastest way to generate sample posts, portfolio items, team members, slides and custom pages is using the feature One-click install demo content. Here's a video tutorial showing how to do this:</p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/R8mUyPXytXc?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble viewing this video you can check it online here <a href="http://www.youtube.com/watch?v=R8mUyPXytXc">http://www.youtube.com/watch?v=R8mUyPXytXc</a>.</p>       
+        </div><!--demo_content-->
+        
+        <div id="options_theme">      
+            <h3>Theme Options</h3>
+            <p>Here's another video with a general overview of the theme management:</p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/kc7iKgMiIxg?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble viewing this video you can check it online here <a href="http://www.youtube.com/watch?v=kc7iKgMiIxg">http://www.youtube.com/watch?v=kc7iKgMiIxg</a>.</p>   
+            <h4>General Tab</h4>
+            <p>a) <span style="font-weight: bold">Main Theme Options </span>- Decide here if you want your theme to adjust to smaller screens. There are also some important options related with the content width:</p>
+            <p>i) Set the <em>maximum width</em> that the content area scales to (this is useful for really wide screens so that the content doesn't stretch too much);</p>
+            <p>ii) Ajax Calls: with this option ON the theme will attempt to load all content using Ajax Calls. This will speed up the website page loading process and allow some elements to have smoother transitions. If you have any trouble with pages that contain a plugin you can add a special class to the menu button that loads that page. The class name you must add is <em>regular_load</em>.</p>
+            <p>b) <span style="font-weight: bold">Fonts</span> - There's a large number of google fonts available. The theme uses 2 types of fonts that can be selected here. If you need to add fonts that aren't bundled with the theme, you can use the method show here to add extra fonts: <a href="http://www.pirenko.com/blog/2013/08/27/extra-fonts-plugin-by-pirenko/">http://www.pirenko.com/blog/2013/08/27/extra-fonts-plugin-by-pirenko/</a>.</p>
+            <p>c) <span style="font-weight: bold">Colors: General</span>            - Set the generic color scheme and style with these options. These colors will apply on multiple parts of the theme. You can also set up some background patterns here. If you need to add your own simply place your images inside the images/patterns/ folder that the theme will detect and make them ready for use;</p>
+            <p>d) <span style="font-weight: bold">Colors: Lines and borders</span> - These values will apply to lines, borders and textfields. Some buttons will also receive a similar style (example: submit comment button). There's also the possibility to use shadows on some elements... Set the opacity to zero if you don't need any shadowing effect;</p>
+            <p>e) <span style="font-weight: bold">Colors: Buttons, Carousel and Other</span> - These sepcific colors will apply specifically to the elements that are described near each color picker;            </p>
+            <p>f) <span style="font-weight: bold">Sidebars</span> - Just decide if you want to use the 2 sidebars that are available. The right sidebar option can be overiden on some certain page types too;            </p>
+            
+<h4>Logo Bar</h4>
+            <p>Not much to say here... Set the colors for the vertical bar and also your footer text.  After that upload your own brand images and they will be used across all the theme pages. You may also upload special images for high resolution screens. Depending on your logo configuration you might want to adjust the menu vertical placement and you can do this by adjusting the menu vertical displacement value; </p>
+          
+            <h4>Menu Bar</h4>
+            <p>Customize here the looks of the left bar where the menu and left sidebar is displayed. Besides the menu bar width you can customize entirely the color scheme.</p>
+            
+            
+            <h4>Left Sidebar</h4>
+            <p>Once again you can fully tweak the  color scheme for this specific sidebar. This element will stick to the lower part of the screen if there's enough space. On screens that don't have enough vertical space the sidebar will stick under the menu and a scrollbar will be displayed if needed.</p>
+            
+            <h4>Blog</h4>
+            <p>Besides other options whose name describes exactly what they do here are some notes:</p>
+            <p>a) <strong>Blog Categories Page Template</strong> - Decide the layout for the blog archives page;</p>
+            <p>b) <strong>Show author info under post</strong> - Decide if the information about the post author should be displayed. This info is set up under Users&gt;Profile;</p>
+            <p>d) <strong>Social Sharing </strong>- Show/hide/select the social network sharing buttons;</p>
+            <p></p>
+            
+            <h4>Portfolio</h4>
+          <p>Once again besides other options whose name describes exactly what they do here are some notes:</p>
+          <p>a) <strong>Skills Page Template</strong> - Decide the layout for the portfolio archives page;</p>
+            <p>b) <strong>Default Single Posts Layout</strong> - Wide or fullscreen. This option can be overriden on each single post on it's respective options panel;</p>
+            <p>c) <strong>Social Sharing </strong>- Show/hide/select the social network sharing buttons;</p>
+            
+          <h4>Translations</h4>
+          <p>There are 2 methods to translate the theme: using the Fount Options and using .mo/.po files that can be combined with WPML. You have the option to decide that on this translation tab. If you only need one language I would say that using the theme options is easier and faster, but if you need more than one language you need to use the .mo/.po files method.</p>
+          <p>If you decide to use the .mo/.po solution the language files are located inside the <strong>lang</strong> folder. With this method you can also use the plugin WPML, because the theme is fully compatible;          </p>
+   
+             <h4>WooCommerce</h4>
+            <p>If WooCommerce plugin is installed some extra options can be set up here. One quick note to inform that if the sidebar is shown by default and on a specific page it should be hidden, this can be done by adding <strong>?sidebar=n</strong> to the URL and vice-versa;</p>
+          	
+          
+          	<h4>Custom Scripts</h4>
+            <p>a) If you are using Google Analytics you can place the tracking code here;</p>
+            <p>b) The Custom CSS textfield is extremely important to make adjustments to the theme styling;</p>
+            <p>c) You may also add some Javacript code on the Custom Javascript textfield;</p>
+          	
+            <h4>Advanced</h4>
+            <p>Change some of the theme custom post types slugs that will be show on the URL browser address bar. Do not use any special characters here;</p>
+            <p>Here's another video tutorial showing the complete theme options panel: 
+            </p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/-x8nn3HMzcA?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble viewing this video you can check it online here <a href="http://www.youtube.com/watch?v=-x8nn3HMzcA">http://www.youtube.com/watch?v=-x8nn3HMzcA</a>.
+    </div><!--options_theme-->
+    </div><!--getting_started-->
+    <div id="custom_options" class="main_block">
+        <h1>Configuration</h1>
+        <div id="menu_management">
+            <h3>Menu Management</h3>
+            
+            <p>The theme has one menu location. Just add the necessary content under Appearance&gt;Menus like you do with any other modern wordpress theme. If you can't see some categories, tags or custom taxonomies on the left side to add to the menu, click on the Screen Options button on the right top and make sure they are set to show on screen.</p>            
+            
+        </div><!--homepage-->
+    </div><!--custom_options-->
+  	<div id="content_management" class="main_block">
+        <h1>Content Management</h1>
+        <div id="b_n">      
+            <h3>Blog/Posts</h3>
+            <p>Recommended dimensions for the image to use on this page are 1200px. Once again this value can be lower if your Maximum Content Width in pixels is much lower than this. If you have high resolution images for retina displays upload bigger images to WordPress install and the theme will resize them properly for smaller screens. Here are some additional notes:</p>
+          <p>a) If you want to use a specific color for this post just set it up on the Featured Color option field;</p>
+          <p>b) Blog entries are Posts that you create on your Dashboard. You may use categories and tags to organize your content;</p>
+            <p>c) The featured image will be the thumbnail and the first image of the slider. If you only want this image to be the thumbnail you should select the default option to &quot;Skip Featured image on Lightbox and Slideshow&quot; inside the Theme Post Options panel. In this case the theme will fetch the second image/media to the lightbox and it will be the first image of the single page slider. You can set up to 10 images/videos for each news entry inside the same window; </p>
+            <p>d) Here's a sample code to embed a Vimeo Video:</p>
+            <p>&lt;iframe src=&quot;http://player.vimeo.com/video/40540343?color=ffffff&amp;amp;autoplay=1&quot; width=&quot;700&quot; height=&quot;420&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;</p>
+            <p>e) After adding some blog entries probably you want a page to show these items. You should go to Pages&gt;Add New and set the Template (on the right side menu) to Blog Page. The Classic Template type shows an image on top with descriptions under, while the Grid Template shows them with a "boxy" style;</p>
+            <p>f) To set up multiple blogs you need to use the Theme Blog  Options panel. This window will show after you select a page with the template &quot;Blog Page&quot; and there you can decide what categories you want to use;</p>
+            <p>Here's a video tutorial shwowing how to manage single blog posts:</p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/_yqnVRgIGtU?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble viewing this video you can check it online here <a href="http://www.youtube.com/watch?v=_yqnVRgIGtU">http://www.youtube.com/watch?v=_yqnVRgIGtU</a>.</p>
+      </div>
+      <div id="p_p">
+            <h3>Portfolio/Portfolio Items</h3>   
+          <p>Recommended width for the images to use on these pages is 1200px (height is variable). This value can be lower if your Maximum Content Width in pixels is much lower than this. If you have high resolution images for retina displays upload bigger images to WordPress install and the theme will resize them properly for smaller screens. Here are some additional notes:</p>
+            <p>a) If you want to use a specific color for this post just set it up on the Featured Color option field;</p>
+            <p>b) You may use the portfolio categories to filter the entries. You may also add some tags to these items;</p>
+            <p>c) The featured image will be the thumbnail and the first image of the slider. If you only want this image to be the thumbnail you should select the default option to &quot;Skip Featured image on Lightbox and Slideshow&quot; inside the Theme Portfolio  Options panel. In this case the theme will fetch the second image/video to the lightbox and it will be the first image of the slider. You can set up to 10 images/videos for each news entry inside the same window; </p>
+            <p>d) Here's a sample code to embed a Vimeo Video:</p>
+            <p>&lt;iframe src=&quot;http://player.vimeo.com/video/40540343?color=ffffff&amp;amp;autoplay=1&quot; width=&quot;700&quot; height=&quot;420&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;</p>
+            <p>e) After adding some portfolio items probably you want a page to show these items. You should go to Pages&gt;Add New and set the Template (on the right side menu) to Portfolio Page. If you want to show a big Carousel like the theme preview landing page you should opt for the Portfolio Carousel Page Template. As an alternative you can use the Grid template on which the theme will resize the post featured images to create a perfect aligned grid. You have also the Masonry Template if you don't want the theme to crop the thumbnails and prefer that each image has it's own height;</p>
+            <p>f) To set up multiple portfolios you need to use the Theme Portfolio  Options panel. This window will show after you select a page with the template &quot;Portfolio Page&quot; and there you can decide what categories you want to use. It's here where you decide too if you want the images to link to a single page or open a lightbox (enlarged image);</p>
+            <p>Here's a video tutorial shwowing how to manage single portfolio posts:</p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/_I78adQsdIE?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble viewing this video you can check it online here <a href="http://www.youtube.com/watch?v=_I78adQsdIE">http://www.youtube.com/watch?v=_I78adQsdIE</a>.</p>
+      </div>
+        
+        <div id="h_s">      
+            <h3>Theme Sliders/Slides</h3>
+            <p>Recommended width for the images to use on these pages is 1200px (height is variable). Just like before value can be lower if your Maximum Content Width in pixels is much lower than this.   If you have high resolution images for retina displays upload bigger images to WordPress install and the theme will resize them properly for smaller screens. Here are some additional notes:</p>
+            <p>a) When you create a slider if you want to use an image use the Featured image panel. If you want to use a video use the same code as for the portfolio section and place it on the Video HTML code textfield;</p>
+            <p>b) You can set the slides to link to other pages or external links. In this case fill the URL textfield inside the Theme Slide Options. You may also change the text color and the position where that text is displayed;</p>
+            <p>c) You can organize your slides using Groups. This is the way to create different sliders across the website. After creating a Group (ex: first_group) you can select it when you are adding a slider to a page;</p>
+            <p>d) The theme has a special page template to show a fullscreen slider. In this case you must create a page, select the template Page - Fullscreen Slider and, after saving it, select the necessary options displayed under the page content;</p>
+            <p>e) You can also show those theme sliders using the Visual Composer Plugin and selecting the Theme Slider button;</p>
+            <p><strong>Important: </strong>When using the visual composer the slides group must be the Group Slug (not the Group Name);      </p>
+      </div>
+        <!--h_s-->
+      <div id="h_m">      
+            <h3>Teams/Team Members</h3>
+            <p>Members are managed in a similar way to portfolios or slides. You can organize them into categories (teams) and you can show teams using shortcodes. Each member has a single page that you can add to the menu or to whatever section you want. </p>
+            <p>Under each Team Member page content you have some options under the page content.  Just on note to let you know that if you don't want to link the thumbs to team member single pages you can do this by selecting the respective option on this very same options panel;</p>
+            <p>Teams can be added to pages using the Visual Composer by selecting the options Team Members.      </p>
+      </div>
+      <!--h_m-->
+        <div id="custom_bks">      
+            <h3>Pages Templates &amp; Visual Composer</h3>
+            <p>This theme was developed to work combined with the Visual Composer Plugin. You'll find all the necessary elements to create all sorts of content across all your pages. Here are some notes:</p>
+       	  <p>a) Besides WordPress default page the theme offers 2 types of pages: Classic Layout and With Sections. The difference between these two pages types has to do with the maximum width of the content background. If you don't need any section to fill the whole width of the screen use the Classic Layout Template. On the other hand, if you are going to need zones that fill the whole screen horizontally you must use a Page with Sections;</p>
+       	  <p>b) If you want to create a full width section click on the edit button on the row and you'll find that option there. It's also here that you can set up you background and margins. You can also set up some background patterns here. If you need to add your own simply place your images inside the images/patterns/ folder that the theme will detect and make them ready for use;</p>
+       	  <p>c) If you want to add some extra vertical spacing between elements simply add an empty row between them. There also an element called &quot;Vertical Spacer&quot; that you can add using the composer on which you can simply set up a value in pixels for a margin (positive or negative);</p>
+            <p>d) Under each page content you'll find more options such as the title text, title color, featured slider and sidebar display. The featured slider allows you to display a full width slider on top of a page (even if it's a Classic Layout page);</p>
+      </div>
+        <!--custom_bks-->
+           <div id="w_c">   
+            <h3>WooCommerce</h3>
+            <p>If the theme should be extended with WooCommerce nothing special needs to be done after activating the plugin. I would just add these notes:</p>
+            <p>a) Thumbnails and product images will look blurry with the default dimenstions. To avoid this situation. I suggest going to WooCommerce&gt;Settings&gt;Catalog&gt;Image Options and adjusting the values (for reference on the preview they are 600&times;600,800&times;800 and 150&times;150);</p>
+            <p>b) The color scheme is set up under WooCommerce&gt;Settings&gt;General&gt;Styles and Scripts;</p>
+            <p>c) The theme provides some extra options under Fount Options&gt;Woocommerce tab;</p>
+      </div><!--custom_bks-->
+    </div><!--content_management-->
+    
+ 	<div id="final_notes" class="main_block">
+    	<h1>Final Notes</h1>
+        <div id="update_theme">      
+            <h3>Theme Update</h3>
+            <p>The theme will be updated whenever new features are added or bugs appear. The video below shows how to update your theme (the video shows another theme, but the update process is always the same on my themes):</p>
+            <iframe width="832" height="468" src="http://www.youtube.com/embed/hjBLV58VhYw?autoplay=true" frameborder="0" allowfullscreen></iframe>
+            <p>If you have any trouble viewing this video you can check it online here <a href="http://www.youtube.com/watch?v=hjBLV58VhYw">http://www.youtube.com/watch?v=hjBLV58VhYw</a>.</p>
+          
+        </div><!--update_theme-->
+        <div id="tips">      
+            <h3>Customization Tips</h3>
+            
+			If you need to dig into the code to make some sort of adjustments the most important files are located at the <strong>inc</strong> and <strong>js</strong> folders. Here are some notes:
+<ul>
+          <li>CSS - inside the css folder you'll find the 5 CSS files used all over the theme. Their names explain where they are used and other.css contains all styles related with plugins and widgets</li> 
+            <li>PHP - functions.php and inc/helper.php controls most of the frontend content</li>
+            <li>jQuery - main.js has to do with functions used on the frontend (all .js files located in the<strong> js</strong> folder)</li>
+            <li>jQuery - other.js has to do with functions used on the frontend related with plugins and widgets</li>
+            </ul>
+            <p>Send me an email via <a href="http://themeforest.net/user/Pirenko">Themeforest</a> if you need any further help</p>
+        </div><!--tips-->
+        <div id="credits">      
+            <h3>Sources and Image Credits</h3>
+            
+			<h4>Sources</h4>
+              	<ul> 
+                	<li><a href="http://codecanyon.net/item/visual-composer-for-wordpress/242431" target="_blank">Visual Composer Plugin by Mixey</a></li>
+                    <li><a href="http://codecanyon.net/item/accordion-slider-responsive-and-touch-accordion/140404" target="_blank">Accordion Slider by bqworks</a></li>
+                    <li><a href="http://www.alessandroferrini.it/" target="_blank">FerroSlider by Alessandro Ferrini</a></li>
+                    <li><a href="http://foundation.zurb.com/" target="_blank">Foundation by Zurb</a></li>
+                    <li><a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup by Dmitry Semenov</a></li>
+                    <li><a href="http://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank">Custom Content Scroller by malihu</a></li>
+                    <li><a href="http://wordpress.org/plugins/recent-tweets-widget/" target="_blank">Recent Tweets Widget by Theme Prince</a></li>
+                    <li><a href="http://wordpress.org/plugins/unique-page-sidebars/" target="_blank">Unique page sidebars by Andrew Ryno</a></li>
+                    <li><a href="http://www.advancedcustomfields.com/" target="_blank">ACF by Elliot Condon</a></li>
+                    <li><a href="http://isotope.metafizzy.co" target="_blank">Isotope by David DeSandro</a></li>
+                    <li><a href="http://masonry.desandro.com" target="_blank">Masonry by David DeSandro</a></li>
+                    <li><a href="http://www.ambrosite.com/plugins" target="_blank">Ambrosite Next/Previous Post Link Plus</a></li>
+                    <li><a href="http://ricostacruz.com/nprogress" target="_blank">NProgress.js by Rico Sta. Cruz</a></li>
+                    <li><a href="http://github.com/rstacruz/jquery.transit" target="_blank">jQuery Transit by Rico Sta. Cruz</a></li>
+                    <li><a href="http://wordpress.org/extend/plugins/decent-comments/" target="_blank">Decent Comments by itthinx</a></li>
+                    <li><a href="http://www.farinspace.com/" target="_blank">WPAlchemy by Dimas Begunoff</a></li>
+                    <li><a href="https://gist.github.com/1367237" target="_blank">Image Resize Script by Victor Teixeira</a></li>
+                    <li><a href="http://remicorson.com" target="_blank">Sweet Custom Menu by Remi Corson</a></li>
+                    <li><a href="http://tgmpluginactivation.com/" target="_blank">TGM by Thomas Griffin and Gary Jones</a></li>
+                    <li><a href="http://reduxframework.com/" target="_blank">Redux by ReduxFramework Team</a></li>
+                    <li><a href="https://github.com/louisremi/jquery-smartresize" target="_blank">Debounced Resize by Louis Remi</a></li>
+                    <li><a href="https://github.com/kayahr/jquery-fullscreen-plugin" target="_blank">JQuery Fullscreen by Klaus Reimer</a></li>
+                    <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">jQuery easing by McGinley Smith</a></li>
+                    <li><a href="http://calebjacob.com/tooltipster" target="_blank">Tooltipster by Caleb Jacob</a></li>         
+                    <li><a href="http://www.woothemes.com/flexslider/" target="_blank">Flexslider by Woothemes</a></li>
+                    <li><a href="http://subtlepatterns.com/" target="_blank">Background Patterns by Subtle Patterns</a></li>
+                    <li><a href="http://www.premiumpixels.com/freebies/41-social-media-icons-png/" target="_blank">Social Network Icons by premiumpixels</a></li>
+                    <li><a href="http://www.entypo.com/" target="_blank">Entypo Font by Daniel Bruce</a></li>
+                    <li><a href="http://www.fontello.com/" target="_blank">Fontello Font Service</a></li>
+                    <li><a href="http://hany.fr/" target="_blank">Sharrre jQuery plugin by Julien Hany</a></li>
+                    <li><a href="http://www.csstemplatesfree.org/minifolio.html" target="_blank">Minifolio HTML template (used for this help file)</a></li>
+             	</ul>
+         	<h4>Image Credits (used only on the theme preview)</h4>
+                <ul> 
+                    <li>Multiple images bought on Photodune</li>
+                    <li><a href="http://www.flickr.com/photos/markjsebastian/" target="_blank">markjsebastian on Flickr</a></li>
+                    <li><a href="http://www.flickr.com/photos/vladjanuary/" target="_blank">vladjanuary on Flickr</a></li>
+                    <li><a href="http://www.flickr.com/photos/ag2r/" target="_blank">ag2r on Flickr</a></li>
+                    <li><a href="http://picjumbo.com/" target="_blank">Picjumbo</a></li>
+                    <li><a href="http://unsplash.com/" target="_blank">Unsplash</a></li>
+                    <li><a href="http://www.gratisography.com/" target="_blank">Gratisography</a></li>
+             	</ul>
+        </div><!--credits-->
+  	</div><!--final_notes--> 
+        	
+</div><!--fullwidth_content-->
+
+                <div class="bottom_divider"></div>
+
+    <div id="prk_footer">
+    2013 Fount Theme - Proudly developed by <a href="http://www.themeforest.net/user/Pirenko?ref=Pirenko" target="_blank">Pirenko</a>.
+		<!--Begin Social Icons-->
+		<div id="social">
+			<a href="http://twitter.com/Pirenko" class="twitter-icon"></a>			
+			<a href="http://www.facebook.com/Pirenko" class="facebook-icon"></a>
+            <a href="http://www.youtube.com/channel/UClwoypFTOkRuCCHebhEm-mg/videos?flow=grid&view=1" class="youtube-icon"></a>				
+		</div>
+		<!--End Social Icons-->
+    </div>
+    <div class="clear"></div>
+</div><!--end of main_container--> 
+</body>
+</html>

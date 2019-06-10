@@ -1,0 +1,16 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project: 	Fount Theme
+Author:		Pirenko 
+-------------------------------------------------------------------*/
+@charset "UTF-8";
+@import "compass/css3";
+
+/*VARIABLES*/
+$css_theme_gutter: 16px;
+$multiplier:1;
+ 
+@import "js_composer.scss";
+@import "custom.scss";
+@import "other.scss";
+@import "woocommerce.scss";

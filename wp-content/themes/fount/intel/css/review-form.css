@@ -1,0 +1,312 @@
+/**
+* Review Form
+*/
+.title-desc-wrapper{
+    display: none;
+}
+#container1 {
+    height: 290px;
+}
+#heading{
+    background-color: #1D50A3;
+    height: 60px;
+    padding-top: 55px;
+    padding-bottom: 49px;
+    color: white;
+}
+#heading1 {
+    color: #fff;
+    font-family: "Roboto Condensed",sans-serif !important;
+    font-size: 2.25em;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#subheading-1{
+
+    color: #1D50A4;
+    font-family: "Roboto Condensed",sans-serif !important;
+    font-size: 22px;
+}
+#sub1-container1 {
+    width: 50%;
+    height: 250px;
+    top: 50px;
+    float: left;
+}
+#sub2-container1 {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.label1{
+    font-size:0.8em;
+    font-family: "Roboto Condensed",sans-serif !important;
+}
+#rating-table
+{
+    font-size:0.8em;
+    font-family: "Roboto Condensed",sans-serif !important;
+}
+#rating-attributes{
+    text-align:right;
+    color: #F45601;
+    width: 200px;
+}
+.positioning {
+    float: left;
+    margin-left: 1em;
+    width: 42%;
+}
+#label-color{
+    font-family: "Roboto Condensed",sans-serif !important;
+    font-size: 0.8em;
+    color: #F45601;
+    padding-left: 40px;
+}
+#minor-heading {
+    font-family: "Roboto Condensed",sans-serif !important;
+    text-align: left;
+    color: #1d50a4;
+    font-weight: bold;
+}
+.btn-submit,#button1 {
+    background: #1d50a3 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+    width: 260px;
+}
+#note {
+    color: #d3d3d3;
+    font-size: 12px;
+}
+#grey-div {
+    background-color: #dcdcdc;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 370px;
+}
+.check {
+    margin: auto;
+    padding-top: 15px;
+    width: 468px;
+}
+
+
+#fullreview-div1 {
+    float: left;
+}
+#fullreview-div3 {
+    color: #818181;
+    float: right;
+    margin-right: 1em;
+}
+img.fullreview-image {
+    height: 175px;
+    width: 160px;
+}
+
+#fullreview-div1 h5 {
+    color: #545454;
+    font-size: 17px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#fullreview-div2 a {
+    color: #5689dc;
+    display: block;
+    text-align: center;
+}
+
+#rating-table input {
+    cursor: pointer;
+}
+.imgProgress {
+    float: left;
+    margin-top: 20px;
+    width: 20px;
+}
+.imgProgress img {
+    display: none;
+}
+
+img.review-summary-image {
+    height: 90px;
+    width: 75px;
+    margin-left: 14px;
+}
+#summary-container > div {
+    float: left;
+}
+#report-detail {
+    width: 50%;
+}
+#report-detail {
+    border: 1px solid #c0c0c0;
+    margin-right: 5px;
+    padding: 5px;
+}
+#review-summary a {
+    margin-top: 91px;
+    position: absolute;
+    margin-left: 15px;
+}
+#review-summary div {
+    float: left;
+    margin-bottom: 25px;
+   /* margin-right: 10px;*/
+}
+
+#review-summary h5 {
+    color: #777777;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    margin-top: 7px;
+}
+#summary-container {
+    height: auto;
+    padding: 5px 0px 10px !important;
+}
+
+#review-scale > p {
+    float: left;
+    margin-right: 2em;
+}
+#review-summary {width: 49%;}
+#report-detail p b {color: #1d50a4;font-size: 22px;}
+
+/*div.summary-report-detail {float: left; width: 50%;}*/
+.summary-report-detail > div {float: left;margin-right: 10px;}
+.summary-report-detail img {height: 184px;width: 175px;}
+.summary-report-detail tr td:first-child {color: #f45601;text-align: right;}
+.summary-report-detail tr td:last-child span { margin-left: 5px;margin-top: -15px !important;position: absolute;}
+.summary-report-detail p {margin: 6px 0 0; font-size: 14px !important;}
+body {
+    background-color: #fff !important;
+    color: #384047;
+}
+
+#main-review-summary {
+    float: right;
+    margin: 3em auto 0;
+    margin-top: 2em;
+    width: 86%;
+}
+
+.summary-report-overall{
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 2.2em;
+}
+
+.summary-report-detail > table#reviewer_data {
+    float: left;
+    font-family: "Roboto Condensed",sans-serif !important;
+    /*line-height: 1.5em;*/
+    margin: 7px 0 1px 9px;
+    width: 59%;
+}
+
+table#reviewer_data th, table#reviewer_data td {
+    vertical-align: top;
+    width: 24.5%;
+}
+
+.summary-report-detail > table#reviewer_rating_data {
+    float: left;
+}
+
+div.summary-report-detail {
+    float: left;
+    width: 100%;
+}
+
+
+.summary-report-detail > div#biography_data {
+    float: right;
+    text-align: justify;
+    width: 86%;
+    font-family: "Roboto Condensed",sans-serif !important;
+
+}
+
+.summary-report-detail > div#review_notes {
+    float: right;
+    text-align: justify;
+    width: 86%;
+    font-family: "Roboto Condensed",sans-serif !important;
+
+}
+
+table#reviewer_rating_data tr td div.rating-xs{
+    font-size: 1em !important;
+}
+
+div#biography_data span.biography-heading {
+    color: #384047;
+}
+
+
+/*******************************sending message popup css**********************************************/
+#send-message-modal .modal-dialog {
+    margin: 30px auto;
+    width: 351px !important;
+}
+
+#send-message-report {
+    background-color: #f4f4f4;
+    border: 2px solid #888;
+    border-radius: 40px;
+    font-family: "Roboto Condensed",sans-serif !important;
+    /* font-weight: bold;*/
+    height: 350px;
+    width: 350px;
+}
+
+#send-message-report input[type="text"]{
+    height: 30px;
+    padding: 0 10px;
+    width: 283px;
+    margin: 0 0 9px;
+    border: 1px solid #C0C0C0;
+}
+
+.message-modal {
+    padding: 30px;
+    width: 100%;
+}
+
+.message-btn {
+    background-color: #1d50a4;
+    color: #fff !important;
+    font-size: 14px;
+    margin: 5px 19px;
+    text-align: center;
+    width: 35%;
+    -moz-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/*******************************end sending message popup css**********************************************/
+.notes-heading {
+    color: #384047 !important;
+}

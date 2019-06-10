@@ -1,0 +1,133 @@
+/**
+ * Created by shahzaib on 15/01/2019.
+ */
+
+/**
+ *queries for mozilla firefox
+ */
+@-moz-document url-prefix() {
+    .clear_filters{
+        padding: 0;
+    }
+    #date_filter{
+        margin-top: 10px;
+    }
+    .page-id-5109 li.tickmark > span {
+        padding: 0;
+    }
+    #report-pdf-modal .modal-body{
+        display: flex;
+    }
+    #report-pdf-modal .modal-body #pdfViewerIframe{
+        height: 100%;
+    }
+    @media only screen and (min-width:1929px) and (max-width:2800px) {
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5) .iump-form-checkbox:nth-last-child(-n+4) {
+            display: none;
+        }
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5){
+            position: absolute;
+            bottom: 31px;
+        }
+    }
+
+    @media only screen and (min-width:1608px) and (max-width:1714px) {
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5) .iump-form-checkbox:nth-last-child(-n+3) {
+            display: none;
+        }
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5){
+            position: absolute;
+            bottom: 27px;
+        }
+    }
+    @media only screen and (min-width:1429px) and (max-width:1607px){
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5) .iump-form-checkbox:nth-last-child(-n+2) {
+            display: none;
+        }
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5){
+            position: absolute;
+            bottom: 17px;
+        }
+    }
+    @media only screen and (min-width:1280px) and (max-width:1428px){
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5) .iump-form-checkbox:nth-last-child(-n+1) {
+            display: none;
+        }
+        .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5){
+            position: absolute;
+            bottom: 13px;
+        }
+    }
+}
+/**
+ *queries for edge browser
+ */
+@supports (-ms-ime-align: auto) {
+    .page-id-2237 .div-plans {
+        height: 870px;
+    }
+}
+
+/**
+ *queries for internet explorer browser
+ */
+
+_:-ms-fullscreen, .div-plans {
+            height: 885px;
+        }
+@media only screen and (min-width: 1001px) and (max-width: 1285px) {
+    _:-ms-fullscreen, .page-id-2237 .div-plans {
+                height: 876px;
+                top:27px;
+            }
+
+    _:-ms-fullscreen, .page-id-2237 .corner-style-text {
+                transform: rotate(25deg);
+            }
+        }
+@media only screen and (max-width:1140px){
+    _:-ms-fullscreen, .page-id-2237 .div-plans{
+        height: 845px!important;
+    }
+}
+_:-ms-fullscreen, .new_filters{
+    display: -ms-inline-grid;
+}
+_:-ms-fullscreen, .page-id-5088 form > :nth-child(2) .iump-form-line-register:nth-child(5){
+    position: absolute;
+    bottom: 6px!important;
+}
+_:-ms-fullscreen, .ajax-file-upload{
+    display: -ms-flexbox!important;
+    border-style:none!important;
+    box-shadow: none!important;
+}
+_:-ms-fullscreen, .modal-backdrop.fade.in {
+    z-index: 0!important;
+}
+_:-ms-fullscreen, #report-pdf-modal .modal-body{
+    display: flex;
+}
+_:-ms-fullscreen, #report-pdf-modal .modal-body #pdfViewerIframe{
+    height: 100%;
+}
+
+/**
+ *queries for safari browser
+ */
+ @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    #map {
+        z-index:-1;
+    }
+     .modal-backdrop.fade.in{
+         display: none;
+     }
+}
+@media not all and (min-resolution:.001dpcm) {
+    #map {
+        z-index:-1;
+    }
+    .modal-backdrop.fade.in{
+        display: none;
+    }
+}

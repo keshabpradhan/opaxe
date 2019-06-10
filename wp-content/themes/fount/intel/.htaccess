@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^faq?$ faq.php
+#RewriteRule ^review-details?$ review-details.php
+#RewriteRule ^report/([A-Za-z0-9-_]+)/?$ review-details.php?name=$1
+#RewriteRule ^intel/([A-Za-z0-9-_]+)/?$ review-details.php?name=$1

@@ -1,0 +1,90 @@
+<?php
+
+/*$dbSettings = 	array (
+    'dbtype' => 'pgsql',
+    'host' => 'ocubuntu.cloudapp.net',
+    'user' => 'asim',
+    'password' => 'Passw0rd321',
+    'database' => 'rsc_dev',
+    'port'=> 5432
+);*/
+
+// $dbSettings = 	array (
+//     'dbtype' => 'pgsql',
+//     'host' => 'ocubuntu.cloudapp.net',
+//     'user' => 'asim',
+//     'password' => 'Passw0rd321',
+//     'database' => 'rsc_dev',
+//     'port'=> 5432
+// );
+$dbSettings =   array (
+    'dbtype' => 'pgsql',
+    'host' => 'localhost',
+    'user' => 'rsc',
+    'password' => 'rsc@$^seb',
+    'database' => 'rsc',
+    'port'=> 5432
+);
+$dbMySql =   array (
+    'dbtype' => 'mysql',
+    'host' => 'localhost',
+    'user' => 'root',
+    'password' => 'rsc@$^seb',
+    'database' => 'rsc_intel',
+    'port'=> 3306
+);
+//$dbSettings = 	array (
+//    'dbtype' => 'mysql',
+//    'host' => 'localhost',
+//    'user' => 'asim',
+//    'password' => 'Passw0rd321',
+//    'database' => 'rsc',
+//    'port'=> 3306
+//);
+
+define("DSN", $dbSettings['dbtype'] .":dbname=" . $dbSettings['database'] . ";host=" . $dbSettings['host'].";port=".$dbSettings['port']);
+define("DBUSER", $dbSettings['user']);
+define("DBPASSWORD", $dbSettings['password']);
+define("DSN2",$dbMySql['database']);
+define("DBUSER2", $dbMySql['user']);
+define("DBPASSWORD2", $dbMySql['password']);
+define("host", $dbMySql['host']);
+define("ADMIN_EMAILS","fahim.ali@oneclout.com;asim.aziz@oneclout.com");
+
+// Constant
+define("LOGGED_IN","LI");
+define("LOGGED_OUT","LO");
+define("PROFILE_UPDATED","PU");
+define("REVIEW_STARTED","RS");
+define("REVIEW_COMPLETED","RC");
+define("REVIEW_EDITING_STARTED","RES");
+define("REVIEW_EDITING_COMPLETED","REC");
+define("REVIEW_CLOSE","RCLOSE");
+define("REVIEW_SAVE_FOR_LATER_EDIT","RSFLE");
+//RSC email credentials
+if($_SERVER['SERVER_NAME'] === 'wprsc.rscmme.com'){
+    define("FROM_EMAIL","s.kerkvliet@rscmme.com");
+    define("PERSON_NAME","Sebastian Kerkvliet");
+    define("PHP_MAILER_EMAIL","intelrscmme@gmail.com");
+    define("PHP_MAILER_PASSWORD","!RSC12345");
+    define("REPLY_EMAIL","s.kerkvliet@rscmme.com");
+    define("SUBSCRIBE_EMAIL","r.sterk@rscmme.com,s.kerkvliet@rscmme.com");
+    define("REVIEW_EMAIL","intel@rscmme.com, r.sterk@rscmme.com, s.kerkvliet@rscmme.com");
+    define("SIGNUP_EMAIL","intel@rscmme.com, r.sterk@rscmme.com, s.kerkvliet@rscmme.com");
+    define("COMPLAINT_EMAIL","arslan.javaid@oneclout.com,intel@rscmme.com, r.sterk@rscmme.com, s.kerkvliet@rscmme.com");
+    define("SUBSCRIBE_EMAIL","intel@rscmme.com, r.sterk@rscmme.com, s.kerkvliet@rscmme.com");
+}else{
+    define("FROM_EMAIL","no-reply@rscmme.com");
+    define("PERSON_NAME","Sebastian Kerkvliet");
+    define("PHP_MAILER_EMAIL","intelrscmme@gmail.com");
+    define("PHP_MAILER_PASSWORD","!RSC12345");
+    define("REPLY_EMAIL","arslan.javaid@oneclout.com");
+    define("REVIEW_EMAIL","arslan.javaid@oneclout.com, yousaf.masih@oneclout.com");
+    define("SIGNUP_EMAIL","arslan.javaid@oneclout.com,fahim.ali@oneclout.com");
+    define("COMPLAINT_EMAIL","arslan.javaid@oneclout.com,fahim.ali@oneclout.com,s.kerkvliet@rscmme.com");
+    define("SUBSCRIBE_EMAIL","arslan.javaid@oneclout.com,arslan.leo@live.com");
+    define("RSC_EMAILS",,intel@rscmme.com,s.kerkvliet@rscmme.com,n.saunders@rscmme.com");
+
+}
+
+

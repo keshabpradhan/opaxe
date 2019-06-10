@@ -1,0 +1,33 @@
+file: ol\lib\openlayers\control\MapFeedback.js
+
+mailerScript: "../commonjs/feedback-tool/mailer.php"
+
+---------------------------------------------------------------
+
+file: \commonjs\__env.js
+
+getScriptsLocation() <<< change
+getImagesLocation() 
+
+
+----------------------------------------------------------------
+file: index.html <<< change
+
+----------------------------------------------------------------
+
+file: bluebadge3\css\map.css <<< change
+@import "../../commonjs/fancybox/jquery.fancybox-1.3.0.css";
+@import "../../commonjs/css/feedbackcontrol.css";
+@import "../../commonjs/css/mapfeedbackcontrol.css";
+
+
+
+
+----------------------------------------------------------------
+file: \cgi-bin\dg.py <<< change
+
+----------------------------------------------------------------
+
+on line number 78
+
+ path = os.path.join('../bluebadge2','airport-plans')

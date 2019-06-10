@@ -1,0 +1,3 @@
+Sitemap: http://intel.rscmme.com/sitemap.xml
+User-agent: *
+Disallow: /technical_reports/

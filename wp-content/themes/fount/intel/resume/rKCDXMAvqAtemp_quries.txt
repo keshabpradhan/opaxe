@@ -1,0 +1,41 @@
+select * from assets;
+select * from asset_types;
+select * from agents;
+SELECT * from companies;
+SELECT * from images;
+SELECT * from tracking_template;
+SELECT * from template_questions;
+SELECT * from template_answers;
+SELECT * from trackings; 
+
+select * from assets;
+
+
+select asset_area, asset_address, location_name, asset_location from assets
+GROUP BY asset_address
+
+
+SELECT * from assets 
+where asset_address = 'F-11 MARKAZ SAVE ARCADE PLAZA'
+
+
+$this->db->select('at.asset_type_name, a.asset_name, a.asset_location, a.asset_city, a.asset_area, a.asset_address, c.company_id, t.track_date, t.track_status, t.track_id');
+        $this->db->from($this->table.' as t');
+        $this->db->join('assets as a', 't.asset_id = a.asset_id');
+        $this->db->join('asset_types as at', 'at.asset_type_id = a.asset_type');
+        $this->db->join('companies as c', 'a.company_id = c.company_id');
+
+
+select at.asset_type_name, a.asset_name, a.asset_location, a.asset_city, a.asset_area, a.asset_address, c.company_id, t.track_date, t.track_status, t.track_id 
+from trackings as t
+INNER JOIN assets as a
+on t.asset_id = a.asset_id
+INNER JOIN asset_types as at 
+on at.asset_type_id = a.asset_type
+INNER JOIN companies as c
+on  a.company_id = c.company_id
+INNER JOIN tem as c
+on  a.company_id = c.company_id
+where a.company_id = 16
+where t.track_status <> 1
+
